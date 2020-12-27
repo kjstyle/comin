@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions' // 안드로이드스튜디오 4.1부터 이 플러그인이 생략되어있어서 수동으로 추가해줘야함, 참고 : https://www.youtube.com/watch?v=GCbN29rV1Rg&t=213s
 }
 
 android {
